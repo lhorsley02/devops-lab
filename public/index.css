@@ -5,7 +5,8 @@ body {
 
 header {
     display: flex;
-    background-color: gray;
+    color: white;
+    background-image: url(https://unsplash.com/photos/biTSQn9K-tg);
     height: 125px;
 }
 
