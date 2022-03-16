@@ -7,6 +7,7 @@ body {
 header {
     display: flex;
     color: white;
+    text-align: center;
     background-image: url(https://images.unsplash.com/photo-1547487253-76cc390843b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyMzIwODMxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,4 +17,30 @@ header {
 
 .container {
     display: flex;
+}
+
+.main-display {
+    position: absolute;
+    width: 120px;
+    top: 125px;
+    bottom: 0px;
+    background-color: lightgray;
+}
+
+.left-box {
+    position: absolute;
+    width: 120px;
+    right: 0px;
+    top: 125px;
+    bottom: 0px;
+    background-color: lightgray;
+}
+
+.right-box {
+    position: absolute;
+    background-color: #242424;
+    height: 125px;
+    bottom: 0px;
+    left: 120px;
+    right: 120px;
 }
