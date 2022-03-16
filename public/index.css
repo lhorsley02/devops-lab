@@ -1,14 +1,15 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: tan;
+    background-color: #ede9dc;
 }
 
 header {
     display: flex;
     color: white;
     text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1547487253-76cc390843b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyMzIwODMxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    font-size: 25px;
+    background-image: url(https://c1.wallpaperflare.com/preview/841/444/910/plant-green-minimal-leaf.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -19,28 +20,71 @@ header {
     display: flex;
 }
 
-.main-display {
-    position: absolute;
-    width: 120px;
-    top: 125px;
-    bottom: 0px;
-    background-color: lightgray;
-}
-
 .left-box {
     position: absolute;
-    width: 120px;
-    right: 0px;
+    width: 80px;
     top: 125px;
     bottom: 0px;
-    background-color: lightgray;
+    background-color: #3e2e20;
 }
 
 .right-box {
     position: absolute;
-    background-color: #242424;
-    height: 125px;
+    width: 80px;
+    right: 0px;
+    top: 125px;
     bottom: 0px;
-    left: 120px;
-    right: 120px;
+    background-color: #3e2e20;
+}
+
+.main-display {
+    color: white;
+    background-image: url(https://cdn.wallpaper.com/main/2018/08/01_forest17-45.jpg);
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 175px;
+    left: 15%;
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.succulent-display {
+    color: white;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1505333201693-150bb240ef16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3VjY3VsZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 20%;
+    height: 300px;
+    top: 525px;
+    left: 15%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.indoor-display {
+    color: white;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1592150621744-aca64f48394a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb29yJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    width: 20%;
+    height: 300px;
+    top: 525px;
+    left: 40%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.garden-display {
+    color: white;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHZlZ2V0YWJsZSUyMGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 20%;
+    height: 300px;
+    top: 525px;
+    left: 65%;
+    text-align: center;
+    font-size: 25px;
 }
