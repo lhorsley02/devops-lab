@@ -8,3 +8,10 @@ app.use(express.json());
 
 // Middleware
 app.use(express.static(path.join(__dirname, "../public")));
+
+
+const port = process.env.PORT || 4005;
+
+app.listen(port, () => {
+    console.log(`We vibin on port ${port}`);
+});
