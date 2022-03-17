@@ -7,12 +7,14 @@ app.use(cors());
 app.use(express.json());
 
 // include and initialize the rollbar library with your access token
-var Rollbar = require('rollbar')
-var rollbar = new Rollbar({
-  accessToken: 'c6ee333a6f464616a7d7fc92af1cd459',
-  captureUncaught: true,
-  captureUnhandledRejections: true,
-})
+var _rollbarConfig = {
+    accessToken: "167a1751bdfe4ddca42422598f09ae88",
+    captureUncaught: true,
+    captureUnhandledRejections: true,
+    payload: {
+        environment: "production"
+    }
+};
 
 // record a generic message and send it to Rollbar
 rollbar.log('Hello world!')
