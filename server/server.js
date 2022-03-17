@@ -27,6 +27,18 @@ try {
 
 }
 
+try {
+    errFunction();
+} catch (error) {
+    rollbar.critical("This is a critical error and must be fixed immediately!")
+}
+
+try {
+    errFunction();
+} catch (error) {
+    rollbar.warning("This is a warning concerning your code.")
+}
+
 
 // Middleware
 app.use(express.static(path.join(__dirname, "../public")));
