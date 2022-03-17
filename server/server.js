@@ -6,6 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+
 // Middleware
 app.use(express.static(path.join(__dirname, "../public")));
 
