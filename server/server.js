@@ -18,9 +18,20 @@ var rollbar = new Rollbar({
 rollbar.log('Hello world!')
 
 
+
+
+try {
+    nonExistentFunction();
+  } catch (error) {
+    rollbar.error(error);
+
+}
+
+
 // Middleware
 app.use(express.static(path.join(__dirname, "../public")));
 
+app.use(rollbar.errorHandler());
 
 const port = process.env.PORT || 4005;
 
